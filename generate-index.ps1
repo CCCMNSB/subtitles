@@ -6,7 +6,9 @@
 Set-Location $PSScriptRoot
 
 $subsDir  = Join-Path $PSScriptRoot "subtitles"
-$indexPath = Join-Path $subsDir "index.json"
+$indexDir = Join-Path $PSScriptRoot "index"
+$indexPath = Join-Path $indexDir "index.json"
+if (-not (Test-Path $indexDir)) { New-Item -ItemType Directory -Force -Path $indexDir | Out-Null }
 
 # 1) 扫描字幕文件 -> 视频ID列表（去重）
 $ids = @(Get-ChildItem $subsDir -File -ErrorAction SilentlyContinue |
