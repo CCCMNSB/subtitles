@@ -20,7 +20,7 @@ $ids = @(Get-ChildItem $subsDir -File -ErrorAction SilentlyContinue |
 # 2) 读旧索引（保留 title 与 date）
 $oldList = @()
 if (Test-Path $indexPath) {
-    try { $oldList = @(Get-Content $indexPath -Raw -Encoding UTF8 | ConvertFrom-Json) } catch { $oldList = @() }
+    try { $oldRaw = Get-Content $indexPath -Raw -Encoding UTF8 | ConvertFrom-Json; $oldList = @($oldRaw) } catch { $oldList = @() }
 }
 $titleMap = @{}
 $dateMap  = @{}

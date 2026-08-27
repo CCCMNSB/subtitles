@@ -11,10 +11,18 @@ subtitles/                     ← 字幕文件（App 按视频 ID 在这里找�
   9FLSPQT12mA.ass                <视频ID>.ass    （Aegisub，含说话人分离/位置/标签）
   9FLSPQT12mA.srt                <视频ID>.srt    （兜底/纯文本）
 index/                         ← 清单单独一个文件夹
-  index.json                    [{id, title}]，顺序即显示顺序（建议最新在前）
-generate-index.ps1              ← 扫描 subtitles/ 自动生成 index/index.json（oEmbed 填标题）
+  index.json                    [{id, title, date}]，顺序即显示顺序（建议最新在前）
+add-subtitle.ps1                ← 一键推送：选两个文件+填id/标题/日期 → 复制+更新index+git推送
+generate-index.ps1              ← 扫描 subtitles/ 自动补 index（标题 oEmbed、日期 uploadDate）
 README.md
 ```
+
+## 一键添加字幕（推荐）
+在仓库根目录运行：`powershell -ExecutionPolicy Bypass -File add-subtitle.ps1`
+- 弹窗选 **ASS** 和 **SRT** 两个字幕文件；
+- 输入 **视频 ID**（必填）、**标题**（可选，不填自动用 oEmbed）、**日期**（可选，不填自动抓 uploadDate）；
+- 自动：复制到 `subtitles/<id>.ass|.srt` + 更新 `index/index.json`（新增放最前=最新在前）+ `git commit` + `git push`。
+- 参数模式：`-Ass a.ass -Srt a.srt -Id abc123 -Title "标题" -Date 2024-01-01`；加 `-NoPush` 只改本地不推送。
 
 ## 命名约定（App 端加载地址）
 - App 加载字幕 = `https://raw.githubusercontent.com/CCCMNSB/subtitles/main/subtitles/<视频ID>.ass`，失败再试 `.srt`。
