@@ -13,10 +13,10 @@ Audio File: ../放送局11.mp4
 Video File: ../放送局11.mp4
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 0.500000
-Scroll Position: 1434
-Active Line: 1447
-Video Position: 231057
+Video Zoom Percent: 0.250000
+Scroll Position: 1393
+Active Line: 1403
+Video Position: 225281
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -44,7 +44,7 @@ Dialogue: 0,0:05:37.83,0:05:40.67,玛格,,0,0,0,,那么，像往常一样开始�
 Dialogue: 0,0:05:41.04,0:05:42.63,艾玛,,0,0,0,,一起喊
 Dialogue: 0,0:05:42.63,0:05:45.87,艾玛,,0,0,0,,Acacia放送局
 Dialogue: 0,0:05:47.44,0:05:49.04,艾玛,,0,0,0,,大家晚上好
-Dialogue: 0,0:05:49.04,0:05:54.30,艾玛,,0,0,0,,介绍创作品牌Acacia故事和最新信息的节目
+Dialogue: 0,0:05:49.04,0:05:54.30,玛格,,0,0,0,,本节目会介绍创作品牌Acacia故事和最新信息
 Dialogue: 0,0:05:54.30,0:05:58.24,艾玛,,0,0,0,,Acacia放送局第11集现在开始
 Dialogue: 0,0:05:58.24,0:06:00.03,艾玛,,0,0,0,,担任主持人的是
 Dialogue: 0,0:06:00.03,0:06:02.10,艾玛,,0,0,0,,在Acacia出品的游戏作品
@@ -1430,7 +1430,7 @@ Dialogue: 0,1:02:26.53,1:02:29.41,艾玛,,0,0,0,,不妙
 Dialogue: 0,1:02:29.41,1:02:31.78,艾玛,,0,0,0,,没错，是芭蕾舞的那个呢
 Dialogue: 0,1:02:31.78,1:02:33.95,艾玛,,0,0,0,,好像受伤了怎么回事
 Dialogue: 0,1:02:33.95,1:02:35.69,嘉宾,,0,0,0,,看脸上有
-Dialogue: 0,1:02:34.68,1:02:37.16,玛格,,0,0,0,,怎么了，芭蕾有这么？
+Dialogue: 0,1:02:34.68,1:02:37.16,玛格,,0,0,0,,这是怎么了，芭蕾会这样？
 Dialogue: 0,1:02:37.16,1:02:39.01,玛格,,0,0,0,,变成格斗芭蕾了？
 Dialogue: 0,1:02:39.01,1:02:41.74,嘉宾,,0,0,0,,格斗芭蕾，开拓了新领域
 Dialogue: 0,1:02:41.74,1:02:45.84,玛格,,0,0,0,,之前好像有说过在学芭蕾
