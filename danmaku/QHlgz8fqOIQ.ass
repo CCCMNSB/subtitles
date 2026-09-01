@@ -9,12 +9,12 @@ WrapStyle: 0
 
 [Aegisub Project Garbage]
 Scroll Position: 2811
-Active Line: 2829
+Active Line: 2825
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Danmaku_General,Microsoft YaHei UI,40,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,7,10,10,10,1
-Style: Danmaku_Member,Microsoft YaHei UI,40,&H00FFFFFF,&H00FFFFFF,&H0000FF00,&H00000000,0,0,0,0,100,100,0,0,1,2,1,7,10,10,10,1
+Style: Danmaku_Member,Microsoft YaHei UI,40,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,7,10,10,10,1
 Style: SuperChat,Microsoft YaHei UI,40,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,10,10,10,1
 
 [Events]
